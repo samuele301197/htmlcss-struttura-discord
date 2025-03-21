@@ -27,14 +27,30 @@
   
  .header{
      background-color: orange;
-     height: 100px;
+     height: 80px;
      display: flex;
+     padding: 15px;
+ }
+
+ .footer{
+    background-color: black;
+    height: 60px;
+    padding: 10px; 10px;
+
  }
 
 .navbar {
     display: flex;
     justify-content: center;
     align-items: flex-start;
+}
+
+.endbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    justify-content: space-between;
 }
 
 .title{
@@ -124,26 +140,28 @@ min-height: 100px;
 
 .col-9{
     background-color:yellow;
-    width: 100%;
+    width: 50%;
+
+;
 }
 
 .col-10{
     background-color:rebeccapurple;
-    width: 100%;
+    width: 10%;
 }
 
 .col-11{
     background-color: forestgreen;
-    width: 100%;
+    width: 10%;
 }
 
 .col-12{
     background-color:yellowgreen;
-    width: 100%;
+    width: 10%;
 }
 
 .col-13{
     background-color:seagreen;
-    width: 100%;
+    width: 10%;
 }
 
